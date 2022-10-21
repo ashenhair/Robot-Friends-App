@@ -6,17 +6,18 @@ It's fully responsive and functional in different screen sizes.
 
 Technologies Used
 
-Front-End
-HTML5
-CSS3
-React.js
+	Front-End
+	HTML5
+	CSS3
+	React.js
 
 
 React Packages
-Create React App
-Tachyons
+	Create React App
+	Tachyons
 
 
 APIs
-RoboHash
-JSONPlaceholder
+	RoboHash
+	JSONPlaceholder
+
