@@ -5,8 +5,8 @@ Built using HTML5, CSS3, Javascript, & React.js
 
 
 React Packages
-  Create React App,
-  Tachyons
+   Create React App,
+   Tachyons
 
 
 APIs
