@@ -1,7 +1,6 @@
 import React from "react";
 import Card from "./Card";
 
-
 const CardList = ({robots}) => {
     return (
         <div className="card-list">
@@ -21,6 +20,5 @@ const CardList = ({robots}) => {
     )
 }
                         
-
 
 export default CardList;
