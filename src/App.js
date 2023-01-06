@@ -18,14 +18,12 @@ useEffect(()=> {
     .then(users => {setRobots(users)});
 },[]) 
 
- 
-  const onSearchCahnge = (event) => {
+ const onSearchCahnge = (event) => {
     setSearchfield(event.target.value)
   }
    
-    
-    const filteredRobots = robots.filter(robot => {
-      return robot.name.toLowerCase().includes(searchfield.toLowerCase());
+ const filteredRobots = robots.filter(robot => {
+     return robot.name.toLowerCase().includes(searchfield.toLowerCase());
     })
     return !robots.length ?
       <h1>Loading</h1> :
