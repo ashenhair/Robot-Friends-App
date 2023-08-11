@@ -7,7 +7,6 @@ import Scroll from './Docs/Scroll';
 
 
 function App () {
-
 const [robots, setRobots] = useState([])
 const [searchfield, setSearchfield] = useState('')
 
@@ -28,8 +27,7 @@ useEffect(()=> {
     return !robots.length ?
       <h1>Loading</h1> :
   (
- 
-  
+   
     <div className="tc">
      <h1>RobotFriends</h1>
      <SearchBox searchChange={onSearchCahnge}/>
@@ -39,7 +37,6 @@ useEffect(()=> {
      <CardList robots={filteredRobots}/>
     </div>
     
-
     );
   }   
 
